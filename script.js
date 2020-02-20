@@ -14,11 +14,14 @@
         $(".posted-messages").append(
             $("#email-address").val().trim() + "<br/>" +
             $("#postText").val().trim() + "<br/>");
-
+            $("#email-address").val("");
+            $("#postText").val("");
+            
     });
 
 // This will be a post method to the db to create messages that are saved.
 // It will also be a get method from the db to the client ("posted-message")
+
 
 // This is my example:  I walked into my room to get my glasses so I could read the heating
 // directions for dinner.  When I got in the room, I forgot what I went in there to get.  I

@@ -1,0 +1,50 @@
+body {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+h1, p {
+    margin-left: 10px;
+    color: gold;
+}
+p {
+    font-size: 24px;
+}
+
+#header {
+    background: green;
+}
+
+.posted-messages {
+    
+    background-image: url("../forgetfulWall/assets/forgetwall.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 500px;
+    color: green;
+} 
+
+.wrapper {
+    height: 100%;
+    margin-bottom: -10px;
+}
+
+h1 {
+    color: black;
+    text-decoration: underline;
+}
+
+/* .main {
+     padding: 50px; 
+}
+*/
+
+ .form-group { 
+    margin: 10px;
+}
+
+/* .posted-messages {
+    min-height: 200px;
+} */
+
+footer {
+    height: 10px;
+}
