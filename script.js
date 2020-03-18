@@ -11,9 +11,15 @@
 // area marked "posted-message"
     $(".btn-primary").on("click", function(){
         console.log("I was clicked!");
+        let newUser = {
+            emailAddress:$("#email-address").val().trim(),
+            postText:$("#postText").val().trim()
+        }
+        console.log(newUser);
+        
         $(".posted-messages").append(
-            $("#email-address").val().trim() + "<br/>" +
-            $("#postText").val().trim() + "<br/>");
+            newUser.emailAddress + "<br/>" +
+            newUser.postText + "<br/>");
             $("#email-address").val("");
             $("#postText").val("");
             
